@@ -1,0 +1,83 @@
+model_optimizer_tex_finetune: &model_optimizer_tex_finetune
+  optimizer:
+    name: AdamWOptimizerConfig
+    args:
+      lr: 0.0001
+      betas: [ 0.9, 0.95 ]
+      weight_decay: 0.05
+      max_norm: 1.0
+  scheduler:
+    name: CosineDecaySchedulerConfig
+    args:
+      warm_up_end: 1
+      learning_rate_alpha: 0.05
+      max_steps: 500
+
+
+jobs:
+  # job 0
+  - name: tex_refine
+    batch_size: 1
+    num_workers: 4
+    system_type: MeshGen
+    cond_img_res: 512
+    input_img_res: 512
+    skip_cond: False
+    cond_mode: rgba
+    tex_pts_detach: False
+    gradient_checkpointing: True
+    num_pts_per_chunk: 8388608
+    models:
+      generator:
+        name: GeneratorV3
+        args:
+          in_channels: 10
+          plane_resolution: 32
+          out_channels: 40
+          patch_size: 16
+          model_channels: 1024
+          num_layers: 24
+          num_heads: 16
+          num_head_channels: 64
+          dropout: 0.0
+          gradient_checkpointing: True
+          upsample_factor: 8
+          img_token_normalization: True
+      fields:
+        name: BaseNeRF
+        args:
+          num_samples_per_ray: 256
+          single_jitter: False
+          background_color: "white"
+          apply_ray_mask: True
+          decoder_type: "TriPlaneDecoder"
+          decoder_args:
+            field_type: "SeparateField"
+            field_args:
+              in_dim: 120  # assumes plane channel = 40
+              num_layers_sigma: 3  # 2
+              num_layers_color: 4  # 3
+              layer_width: 32
+              sigma_activation: "softplus"
+              activation: 'gelu'
+              # sigmoid_saturation: 0.0
+      mesh_decoder:
+        name: MarchingCubeGeo
+        args:
+          grid_res: 256
+          mc_level: 10.0
+      mesh_loss:
+        name: MeshRenderLoss
+        args:
+          loss_coefficients:
+            loss_rgb: 1.0
+            loss_lpips: 0.5
+            loss_mask: 1.0
+            loss_normal: 0. 
+            loss_normal_l2: 0
+            loss_ray_opacity: 0.5
+            loss_depth: 0.2
+          lpips_res: 256
+    separate_model_params: False
+    optimizers:
+      model: *model_optimizer_tex_finetune

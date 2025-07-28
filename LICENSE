@@ -1,0 +1,108 @@
+Snap Inc. Non-Commercial License
+
+Copyright (c) 2025 Snap Inc. All rights reserved.
+
+This sample code is made available by Snap Inc. for non-commercial, research purposes only. 
+
+Non-commercial means not intended for or directed towards commercial advantage or monetary compensation. Research purposes mean solely for academic study, instruction, or non-commercial research, testing or validation. 
+
+No commercial license, whether implied or otherwise, is granted in or to this sample code or any related patents, unless you have entered into a separate agreement with Snap Inc. for such rights.
+
+This sample code is provided as-is, without warranty of any kind, express or implied, including any warranties of merchantability, title, fitness for a particular purpose, non-infringement, or that the code is free of defects, errors or viruses. In no event will Snap Inc. be liable for any damages or losses of any kind arising from this sample code or your use thereof.
+
+Any redistribution of this sample code, including in binary form, must retain or reproduce this license text including all copyright notices, conditions and disclaimers. 
+
+Third-Party Software
+
+This sample code may require, link to or interact with the following third-party components, each of which is governed by its own respective license:
+numpy Copyright 2005-2023 NumPy Developers. The numpy project can be found at: https://github.com/numpy/numpy. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/numpy/numpy/blob/main/LICENSE.txt.
+
+opencv-python Copyright 2024 OpenCV Contributors. The opencv-python project can be found at: https://github.com/opencv/opencv-python. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/opencv/opencv-python/blob/master/LICENSE.txt.
+
+opencv-python-headless Copyright 2024 OpenCV Contributors. The opencv-python-headless project can be found at: https://github.com/opencv/opencv-python. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/opencv/opencv-python/blob/master/LICENSE.txt.
+
+termcolor Copyright 2020 Konstantine Rybnikov. The termcolor project can be found at: https://github.com/termcolor/termcolor. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/termcolor/termcolor/blob/master/LICENSE.
+
+omegaconf Copyright 2024 Omegaconf Authors. The omegaconf project can be found at: https://github.com/omry/omegaconf. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/omry/omegaconf/blob/master/LICENSE.
+
+loguru Copyright 2017-2024 Delgan. The loguru project can be found at: https://github.com/Delgan/loguru. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/Delgan/loguru/blob/master/LICENSE.
+
+jaxtyping Copyright 2024, Jaxtyping contributors. The jaxtyping project can be found at: https://github.com/google/jaxtyping. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/google/jaxtyping/blob/main/LICENSE.
+
+imageio Copyright 2015-2024 Imageio Contributors. The imageio project can be found at: https://github.com/imageio/imageio. This software is licensed under the BSD 2-Clause "Simplified" License. A copy of the license can be found at: https://github.com/imageio/imageio/blob/main/LICENSE.md.
+
+imageio-ffmpeg Copyright 2024 Imageio-FFMPEG Contributors. The imageio-ffmpeg project can be found at: https://github.com/imageio/imageio-ffmpeg. This software is licensed under the BSD 2-Clause "Simplified" License. A copy of the license can be found at: https://github.com/imageio/imageio-ffmpeg/blob/main/LICENSE.
+
+matplotlib Copyright 2002-2012 John Hunter, 2012-2014 Matplotlib Development Team. The matplotlib project can be found at: https://github.com/matplotlib/matplotlib. This software is licensed under the Matplotlib License. A copy of the license can be found at: https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE.
+
+pandas Copyright 2008-2011 AQR Capital Management, LLC, 2011-2024 The Pandas Development Team. The pandas project can be found at: https://github.com/pandas-dev/pandas. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/pandas-dev/pandas/blob/main/LICENSE.
+
+h5py Copyright 2008-2023 Andrew Collette and Contributors. The h5py project can be found at: https://github.com/h5py/h5py. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/h5py/h5py/blob/main/LICENSE.txt.
+
+open3d Copyright 2018-2024 Open3D Team. The open3d project can be found at: https://github.com/isl-org/Open3D. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/isl-org/Open3D/blob/main/LICENSE.
+
+trimesh Copyright 2017-2024 Michael Dawson-Haggerty. The trimesh project can be found at: https://github.com/mikedh/trimesh. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/mikedh/trimesh/blob/main/LICENSE.
+
+PyMCubes Copyright 2013-2024 Jonas Adolf. The PyMCubes project can be found at: https://github.com/adolfj/pymcubes. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/adolfj/pymcubes/blob/master/LICENSE.txt.
+
+diso Copyright 2024 the diso authors. The diso project can be found at: https://github.com/nv-research-sci/diso. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/nv-research-sci/diso/blob/main/LICENSE.
+
+lpips Copyright 2018-2024 Richard Zhang. The lpips project can be found at: https://github.com/richzhang/PerceptualSimilarity. This software is licensed under the BSD 2-Clause "Simplified" License. A copy of the license can be found at: https://github.com/richzhang/PerceptualSimilarity/blob/master/LICENSE.
+
+einops Copyright 2018-2024 Alex Nichol and Einops contributors. The einops project can be found at: https://github.com/arogozhnikov/einops. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/arogozhnikov/einops/blob/master/LICENSE.
+
+rembg Copyright 2024 Daniel Gatis. The rembg project can be found at: https://github.com/danielgatis/rembg. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/danielgatis/rembg/blob/main/LICENSE.
+
+ninja Copyright 2011 Google Inc. The ninja project can be found at: https://github.com/ninja-build/ninja. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/ninja-build/ninja/blob/master/COPYING.
+
+nvdiffrast Copyright 2020-2024 NVIDIA Corporation. The nvdiffrast project can be found at: https://github.com/NVlabs/nvdiffrast/. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/NVlabs/nvdiffrast/blob/main/LICENSE.txt.
+
+pytorch3d Copyright 2017-present, Facebook, Inc. The pytorch3d project can be found at: https://github.com/facebookresearch/pytorch3d. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/facebookresearch/pytorch3d/blob/main/LICENSE.
+
+transformers Copyright 2018-2024 The HuggingFace Inc. team. All rights reserved. The transformers project can be found at: https://github.com/huggingface/transformers. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/huggingface/transformers/blob/main/LICENSE. Here's the attribution list for your dependencies:
+
+numpy Copyright 2008-2024 NumPy Developers. The numpy project can be found at: https://github.com/numpy/numpy. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+
+opencv-python Copyright 2024 OpenCV contributors. The opencv-python project can be found at: https://github.com/opencv/opencv-python. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/opencv/opencv-python/blob/4.x/LICENSE.txt
+
+opencv-python-headless Copyright 2024 OpenCV contributors. The opencv-python-headless project can be found at: https://github.com/opencv/opencv-python. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/opencv/opencv-python/blob/4.x/LICENSE.txt
+
+termcolor Copyright 2007-2024 Konstantin Lepa. The termcolor project can be found at: https://github.com/termcolor/termcolor. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/termcolor/termcolor/blob/master/LICENSE
+
+omegaconf Copyright 2019-2024 Anish Prasad. The omegaconf project can be found at: https://github.com/omry/omegaconf. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/omry/omegaconf/blob/master/LICENSE
+
+loguru Copyright 2024 Emil Holm. The loguru project can be found at: https://github.com/Delgan/loguru. This software is licensed under The Unlicense. A copy of the license can be found at: https://github.com/Delgan/loguru/blob/master/LICENSE
+
+jaxtyping Copyright 2022 Google LLC. The jaxtyping project can be found at: https://github.com/google/jaxtyping. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/google/jaxtyping/blob/main/LICENSE
+
+imageio Copyright 2014-2022 imageio developers. The imageio project can be found at: https://github.com/imageio/imageio. This software is licensed under the BSD 2-Clause "Simplified" License. A copy of the license can be found at: https://github.com/imageio/imageio/blob/main/LICENSE
+
+imageio-ffmpeg Copyright 2019-2025 imageio. The imageio-ffmpeg project can be found at: https://github.com/imageio/imageio-ffmpeg. This software is licensed under the BSD 2-Clause License. A copy of the license can be found at: https://github.com/imageio/imageio-ffmpeg/blob/main/LICENSE
+
+matplotlib Copyright 2002-2012 John Hunter, Darren Dale, Eric Firing, Michael Droettboom and the Matplotlib development team. The matplotlib project can be found at: https://github.com/matplotlib/matplotlib. This software is licensed under the Matplotlib License. A copy of the license can be found at: https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE
+
+pandas Copyright 2008-2024 The Pandas Development Team. The pandas project can be found at: https://github.com/pandas-dev/pandas. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/pandas-dev/pandas/blob/main/LICENSE
+
+h5py Copyright 2008 Andrew Collette and contributors. The h5py project can be found at: https://github.com/h5py/h5py. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/h5py/h5py/blob/main/LICENSE.txt
+
+open3d Copyright 2018-2024 Open3D Team. The open3d project can be found at: https://github.com/isl-org/Open3D. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/isl-org/Open3D/blob/main/LICENSE
+
+trimesh Copyright 2015-2024 Michael Dawson-Haggerty. The trimesh project can be found at: https://github.com/mikedh/trimesh. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/mikedh/trimesh/blob/main/LICENSE
+
+PyMCubes Copyright 2015-2024 Pablo Márquez Neila. The PyMCubes project can be found at: https://github.com/pmneila/PyMCubes. This software is licensed under the BSD 3-Clause "New" or "Revised" License. A copy of the license can be found at: https://github.com/pmneila/PyMCubes/blob/main/LICENSE
+
+diso Copyright 2022 UNKNOWN. The diso project can be found at: https://github.com/materials-data-science-and-informatics/Dislocation-Ontology-Suite. This software is licensed under the MIT License. A copy of the license can be found at: https://materials-data-science-and-informatics.github.io/Dislocation-Ontology-Suite/DISO/
+
+lpips Copyright 2022 University of Lyon. The lpips project can be found at: https://github.com/SaraGhazanfari/R-LPIPS. This software is licensed under the Mozilla Public License, Version 2.0. A copy of the license can be found at: https://github.com/SaraGhazanfari/R-LPIPS/blob/main/LICENSE
+
+einops Copyright 2018 Alex Rogozhnikov. The einops project can be found at: https://github.com/arogozhnikov/einops. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/arogozhnikov/einops/blob/main/LICENSE
+
+rembg Copyright 2022-2024 Daniel Gatis. The rembg project can be found at: https://github.com/danielgatis/rembg. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/danielgatis/rembg/blob/main/LICENSE
+
+ninja Copyright 2011-2024 Evan Martin. The ninja project can be found at: https://github.com/ninja-build/ninja. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/ninja-build/ninja/blob/master/COPYING
+
+nvdiffrast Copyright 2020-2024 NVIDIA Corporation. The nvdiffrast project can be found at: https://github.com/NVlabs/nvdiffrast. This software is licensed under the MIT License. A copy of the license can be found at: https://github.com/NVlabs/nvdiffrast/blob/main/LICENSE
+
+pytorch3d Copyright 2020-present Facebook, Inc. The pytorch3d project can be found at: https://github.com/facebookresearch/pytorch3d. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/facebookresearch/pytorch3d/blob/main/LICENSE
+
+transformers Copyright 2020-2024 The HuggingFace Team. The transformers project can be found at: https://github.com/huggingface/transformers. This software is licensed under the Apache License, Version 2.0. A copy of the license can be found at: https://github.com/huggingface/transformers/blob/main/LICENSE
