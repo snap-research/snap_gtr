@@ -4,6 +4,7 @@
 
 <a href="https://arxiv.org/abs/2406.05649"><img src="https://img.shields.io/badge/ArXiv-2406.05649-brightgreen"></a>
 <a href="https://snap-research.github.io/GTR"><img src="https://img.shields.io/badge/Project-github.io-blue"></a>
+<a href="https://huggingface.co/snap-research/gtr"><img src="https://img.shields.io/badge/HuggingFace-gtr-orange"></a>
 
 </div>
 
