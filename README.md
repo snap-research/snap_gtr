@@ -28,11 +28,11 @@ pip install -r requirements.txt
 
 # How to Use
 
-Please download model checkpoint from [here](https://drive.google.com/file/d/1ITVqdDLmY5EISj4vsZ2O4sN5mZv9fUfB/view?usp=sharing), and then put it under the `ckpts/` directory.
+Please download model checkpoint from [here](https://huggingface.co/snap-research/gtr/blob/main/ckpt.pth), and then put it under the `ckpts/` directory.
 
 We provide multiview grid data examples under `./examples/` generated using [Zero123++](https://github.com/SUDO-AI-3D/zero123plus). Our inference script loads pretrained checkpoint, runs fast texture refinement,  reconstructs the textured mesh from multiview grid data and exports the mesh. There will be 3 files in the output folder, including exported mesh in `.obj` format, rotating gif visuals of mesh and rotating gif visuals of NeRF.
 
-To infer on multiview data from other sources, simply change camera parameters [here](https://github.sc-corp.net/Snapchat/GTR/blob/main/scripts/prepare_mv.py#L153-L157) accordingly to match the multiview data.
+To infer on multiview data from other sources, simply change camera parameters [here](https://github.com/snap-research/snap_gtr/blob/main/scripts/prepare_mv.py#L153-L157) accordingly to match the multiview data.
 
 ```bash
 # Preprocessing
